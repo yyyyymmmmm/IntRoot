@@ -1,0 +1,7 @@
+node_modules
+.pnpm-store
+.DS_Store
+dist
+dist-ssr
+*.local
+src/types/proto

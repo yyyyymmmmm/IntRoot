@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Phone Frame -->
+    <rect x="200" y="50" width="400" height="500" rx="40" fill="#F5F4F7" stroke="#2C9678" stroke-width="4"/>
+    
+    <!-- Screen -->
+    <rect x="220" y="70" width="360" height="460" rx="32" fill="white"/>
+    
+    <!-- Status Bar -->
+    <rect x="220" y="70" width="360" height="40" rx="32" fill="#2C9678"/>
+    
+    <!-- Note Items -->
+    <g transform="translate(240, 130)">
+        <!-- Note 1 -->
+        <rect width="320" height="80" rx="8" fill="#F5F4F7"/>
+        <text x="16" y="24" font-family="'Noto Sans SC'" font-size="14" fill="#2C9678">今天 14:30</text>
+        <text x="16" y="50" font-family="'Noto Sans SC'" font-size="16" fill="#333333">记录一个有趣的想法 #灵感 #创意</text>
+        
+        <!-- Note 2 -->
+        <rect y="100" width="320" height="80" rx="8" fill="#F5F4F7"/>
+        <text x="16" y="124" font-family="'Noto Sans SC'" font-size="14" fill="#2C9678">今天 12:15</text>
+        <text x="16" y="150" font-family="'Noto Sans SC'" font-size="16" fill="#333333">项目会议总结 #工作 #会议</text>
+        
+        <!-- Note 3 -->
+        <rect y="200" width="320" height="80" rx="8" fill="#F5F4F7"/>
+        <text x="16" y="224" font-family="'Noto Sans SC'" font-size="14" fill="#2C9678">昨天 18:45</text>
+        <text x="16" y="250" font-family="'Noto Sans SC'" font-size="16" fill="#333333">读书笔记：设计心理学 #阅读</text>
+    </g>
+    
+    <!-- Floating Action Button -->
+    <circle cx="540" cy="490" r="30" fill="#2C9678"/>
+    <path d="M530 490H550M540 480V500" stroke="white" stroke-width="2"/>
+    
+    <!-- Navigation Bar -->
+    <rect x="220" y="490" width="360" height="40" rx="20" fill="#F5F4F7"/>
+    <circle cx="280" cy="510" r="4" fill="#2C9678"/>
+    <circle cx="400" cy="510" r="4" fill="#2C9678"/>
+    <circle cx="520" cy="510" r="4" fill="#2C9678"/>
+</svg> 

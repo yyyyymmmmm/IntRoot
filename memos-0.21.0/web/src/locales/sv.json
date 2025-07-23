@@ -1,0 +1,170 @@
+{
+  "amount-text": {
+    "memo_one": "ANTECKNING",
+    "memo_other": "ANTECKNINGAR"
+  },
+  "auth": {
+    "host-tip": "Du registerar dig som webbplatsvärd."
+  },
+  "common": {
+    "about": "Om",
+    "admin": "Admin",
+    "archive": "Arkivera",
+    "avatar": "Avatar",
+    "basic": "Grundläggande",
+    "cancel": "Avbryt",
+    "change": "Ändra",
+    "close": "Stäng",
+    "confirm": "Bekräfta",
+    "create": "Skapa",
+    "database": "Databas",
+    "delete": "Radera",
+    "edit": "Redigera",
+    "email": "E-post",
+    "explore": "Utforska",
+    "filter": "Filter",
+    "image": "Bild",
+    "language": "Språk",
+    "link": "Länk",
+    "mark": "Mark",
+    "nickname": "Smeknamn",
+    "null": "Null",
+    "password": "Lösenord",
+    "pin": "Fäst",
+    "reset": "Återställ",
+    "restore": "Återställ",
+    "save": "Spara",
+    "select": "Select",
+    "share": "Dela",
+    "sign-in": "Logga in",
+    "sign-out": "Logga ut",
+    "sign-up": "Bli medlem",
+    "tags": "Taggar",
+    "title": "Titel",
+    "type": "Typ",
+    "unpin": "Ta bort fäst",
+    "username": "Användarnamn",
+    "version": "Version",
+    "yourself": "Själv"
+  },
+  "days": {
+    "fri": "Fre",
+    "mon": "Mån",
+    "sat": "Lör",
+    "sun": "Sön",
+    "thu": "Tors",
+    "tue": "Tis",
+    "wed": "Ons"
+  },
+  "editor": {
+    "any-thoughts": "Några tankar...",
+    "save": "Spara"
+  },
+  "memo": {
+    "copy-link": "Kopiera länk",
+    "view-detail": "Visa detaljer",
+    "visibility": {
+      "disabled": "Offentliga anteckningar är inaktiverade",
+      "private": "Endast synlig för dig",
+      "protected": "Synlig för medlemmar",
+      "public": "Synlig för alla"
+    }
+  },
+  "message": {
+    "change-memo-created-time": "Ändra anteckning skapade tid",
+    "change-resource-filename": "Ändra resursfilnamn",
+    "click-to-save-the-image": "Klicka för att spara bilden",
+    "copied": "Kopierad",
+    "count-selected-resources": "Totalt valt",
+    "fill-all": "Var god fyll i alla fält.",
+    "fill-form": "Vänligen fyll i detta formulär",
+    "generating-the-screenshot": "Genererar skärmdumpen...",
+    "image-load-failed": "Bildladdning misslyckades",
+    "invalid-created-datetime": "Ogiltig skapad datumtid.",
+    "invalid-resource-filename": "Ogiltligt filnamn.",
+    "login-failed": "Inloggningen misslyckades",
+    "memo-not-found": "Anteckning hittades inte.",
+    "memo-updated-datetime": "Anteckning skapad datum och tid ändrad",
+    "memos-ready": "alla anteckningar är redo 🎉",
+    "new-password-not-match": "Nya lösenord matchar inte.",
+    "password-changed": "Lösenord ändrat",
+    "password-not-match": "Lösenorden matchar inte.",
+    "private-only": "Denna anteckning är privat.",
+    "resource-filename-updated": "Resursfilnamn ändrat.",
+    "restored-successfully": "Återställdes framgångsrikt",
+    "signup-failed": "Registrering misslyckades",
+    "succeed-copy-code": "Kod kopierades framgångsrikt.",
+    "succeed-copy-content": "Innehåll kopierades framgångsrikt.",
+    "succeed-copy-link": "Länk kopierades framgångsrikt.",
+    "succeed-copy-resource-link": "Resurslänk kopierades framgångsrikt.",
+    "succeed-update-additional-script": "Ytterligare skript uppdateras framgångsrikt.",
+    "succeed-update-additional-style": "Ytterligare stil uppdaterades framgångsrikt.",
+    "succeed-update-customized-profile": "Profil framgångsrikt anpassad.",
+    "succeed-vacuum-database": "Succeed to vacuum database",
+    "update-succeed": "Uppdateras framgångsrikt",
+    "user-not-found": "Användaren hittades inte"
+  },
+  "resource": {
+    "clear": "Rensa",
+    "copy-link": "Kopiera länk",
+    "delete-resource": "Ta bort resurs",
+    "fetching-data": "hämtar data...",
+    "linked-amount": "Länkat antecknings belopp",
+    "no-resources": "Inga resurser.",
+    "no-unused-resources": "Inga oanvända resurser",
+    "warning-text": "Är du säker på att du vill ta bort den här resursen? DENNA ÅTGÄRD ÄR OÅTERSTÄLLBAR❗",
+    "warning-text-unused": "Är du säker på att du vill ta bort denna oanvända resurs? DENNA ÅTGÄRD ÄR OÅTERSTÄLLBAR❗"
+  },
+  "setting": {
+    "account-section": {
+      "change-password": "Ändra lösenord",
+      "title": "Kontoinformation",
+      "update-information": "Uppdatera informationen"
+    },
+    "appearance-option": {
+      "dark": "Alltid mörk",
+      "light": "Alltid ljus",
+      "system": "Follow system"
+    },
+    "member": "Medlem",
+    "member-list": "Medlemslista",
+    "member-section": {
+      "create-a-member": "Skapa en medlem"
+    },
+    "my-account": "Mitt konto",
+    "preference": "Preferenser",
+    "preference-section": {
+      "default-memo-sort-option": "Anteckning visningstid",
+      "default-memo-visibility": "Standard synlighet för anteckningar",
+      "theme": "Tema"
+    },
+    "sso": "SSO",
+    "storage": "Lagring",
+    "storage-section": {
+      "create-a-service": "Skapa en tjänst",
+      "delete-storage": "Ta bort lagring",
+      "storage-services": "Lista över lagringstjänster",
+      "update-a-service": "Uppdatera en tjänst",
+      "warning-text": "Är du säker på att ta bort den här lagringstjänsten? DEN HÄR ÅTGÄRDEN ÄR IRREVERSIBEL❗"
+    },
+    "system": "System",
+    "system-section": {
+      "additional-script": "Ytterligare skript",
+      "additional-script-placeholder": "Ytterligare JavaScript kod",
+      "additional-style": "Ytterligare stil",
+      "additional-style-placeholder": "Ytterligare CSS kod",
+      "allow-user-signup": "Tillåt användarregistrering",
+      "customize-server": {
+        "icon-url": "Icon URL",
+        "title": "Customize Server"
+      },
+      "database-file-size": "Databas filstorlek",
+      "disable-public-memos": "Inaktivera offentliga anteckningar",
+      "display-with-updated-time": "Display with updated time",
+      "server-name": "Server Name"
+    }
+  },
+  "tag": {
+    "tip-text": "Ange `#tag ` för att skapa"
+  }
+}

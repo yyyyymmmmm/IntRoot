@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="300" height="200" rx="16" fill="#F5F4F7"/>
+    
+    <!-- Knowledge Map -->
+    <circle cx="150" cy="100" r="40" fill="#2C9678" fill-opacity="0.1" stroke="#2C9678" stroke-width="2"/>
+    <text x="130" y="105" font-family="'Noto Sans SC'" font-size="14" fill="#2C9678">主题</text>
+    
+    <!-- Connected Nodes -->
+    <circle cx="80" cy="70" r="25" fill="#2C9678" fill-opacity="0.1" stroke="#2C9678" stroke-width="2"/>
+    <text x="65" y="75" font-family="'Noto Sans SC'" font-size="12" fill="#2C9678">笔记1</text>
+    
+    <circle cx="220" cy="70" r="25" fill="#2C9678" fill-opacity="0.1" stroke="#2C9678" stroke-width="2"/>
+    <text x="205" y="75" font-family="'Noto Sans SC'" font-size="12" fill="#2C9678">笔记2</text>
+    
+    <circle cx="80" cy="130" r="25" fill="#2C9678" fill-opacity="0.1" stroke="#2C9678" stroke-width="2"/>
+    <text x="65" y="135" font-family="'Noto Sans SC'" font-size="12" fill="#2C9678">笔记3</text>
+    
+    <circle cx="220" cy="130" r="25" fill="#2C9678" fill-opacity="0.1" stroke="#2C9678" stroke-width="2"/>
+    <text x="205" y="135" font-family="'Noto Sans SC'" font-size="12" fill="#2C9678">笔记4</text>
+    
+    <!-- Connection Lines -->
+    <line x1="110" y1="100" x2="190" y2="100" stroke="#2C9678" stroke-width="2"/>
+    <line x1="105" y1="75" x2="195" y2="75" stroke="#2C9678" stroke-width="2"/>
+    <line x1="105" y1="125" x2="195" y2="125" stroke="#2C9678" stroke-width="2"/>
+    <line x1="150" y1="60" x2="150" y2="140" stroke="#2C9678" stroke-width="2"/>
+</svg> 

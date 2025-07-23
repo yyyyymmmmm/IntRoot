@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="300" height="200" rx="16" fill="#F5F4F7"/>
+    
+    <!-- Meeting Table -->
+    <path d="M40 120C40 100 60 90 100 90H200C240 90 260 100 260 120" fill="white" stroke="#2C9678" stroke-width="2"/>
+    <path d="M40 120H260" stroke="#2C9678" stroke-width="2"/>
+    
+    <!-- Laptop -->
+    <path d="M120 60V90H180V60H120Z" fill="white" stroke="#2C9678" stroke-width="2"/>
+    <path d="M110 90H190C190 90 185 100 150 100C115 100 110 90 110 90Z" fill="#2C9678" fill-opacity="0.1" stroke="#2C9678" stroke-width="2"/>
+    
+    <!-- Phone with Notes -->
+    <rect x="60" y="50" width="40" height="60" rx="4" fill="white" stroke="#2C9678" stroke-width="2"/>
+    <rect x="65" y="55" width="30" height="3" rx="1.5" fill="#2C9678"/>
+    <rect x="65" y="62" width="20" height="3" rx="1.5" fill="#2C9678" fill-opacity="0.6"/>
+    
+    <!-- Tablet -->
+    <rect x="200" y="50" width="50" height="70" rx="4" fill="white" stroke="#2C9678" stroke-width="2"/>
+    <rect x="205" y="55" width="40" height="3" rx="1.5" fill="#2C9678"/>
+    <rect x="205" y="62" width="30" height="3" rx="1.5" fill="#2C9678" fill-opacity="0.6"/>
+    
+    <!-- People Silhouettes -->
+    <circle cx="80" cy="140" r="15" fill="#2C9678" fill-opacity="0.2"/>
+    <circle cx="150" cy="140" r="15" fill="#2C9678" fill-opacity="0.2"/>
+    <circle cx="220" cy="140" r="15" fill="#2C9678" fill-opacity="0.2"/>
+</svg> 

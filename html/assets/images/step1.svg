@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="300" height="200" rx="16" fill="#F5F4F7"/>
+    
+    <!-- Note Card -->
+    <rect x="50" y="40" width="200" height="120" rx="8" fill="white" stroke="#2C9678" stroke-width="2"/>
+    
+    <!-- Text Lines -->
+    <rect x="70" y="60" width="120" height="4" rx="2" fill="#2C9678"/>
+    <rect x="70" y="80" width="160" height="4" rx="2" fill="#2C9678" fill-opacity="0.6"/>
+    <rect x="70" y="100" width="140" height="4" rx="2" fill="#2C9678" fill-opacity="0.6"/>
+    
+    <!-- Tags -->
+    <rect x="70" y="120" width="60" height="20" rx="10" fill="#2C9678" fill-opacity="0.1"/>
+    <text x="85" y="134" font-family="'Noto Sans SC'" font-size="12" fill="#2C9678">#灵感</text>
+    
+    <rect x="140" y="120" width="60" height="20" rx="10" fill="#2C9678" fill-opacity="0.1"/>
+    <text x="155" y="134" font-family="'Noto Sans SC'" font-size="12" fill="#2C9678">#创意</text>
+</svg> 

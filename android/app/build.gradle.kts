@@ -29,9 +29,9 @@ android {
 
     buildTypes {
         release {
-            // 启用 R8 压缩和资源压缩
-            isMinifyEnabled = true
-            isShrinkResources = true
+            // 禁用 R8 压缩和资源压缩以避免出现问题
+            isMinifyEnabled = false
+            isShrinkResources = false
             
             // 配置 Proguard/R8 规则
             proguardFiles(
@@ -42,10 +42,21 @@ android {
             signingConfig = signingConfigs.getByName("debug")
         }
     }
+    
+    // 避免重复类错误
+    packagingOptions {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += "META-INF/INDEX.LIST"
+            excludes += "META-INF/io.netty.versions.properties"
+        }
+    }
 }
 
 flutter {
     source = "../.."
 }
 
-dependencies {}
+dependencies {
+    implementation("com.google.android.play:core:1.10.3")
+}

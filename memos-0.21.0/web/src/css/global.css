@@ -1,0 +1,14 @@
+body {
+  @apply text-base w-full min-h-[100svh] bg-zinc-100 dark:bg-zinc-900;
+}
+
+#root {
+  @apply relative w-full min-h-full;
+}
+html.dark {
+  color-scheme: dark;
+  scrollbar-color: hsla(0, 0%, 100%, .4) hsla(0, 0%, 100%, .029);
+}
+html.light {
+  color-scheme: light;
+}

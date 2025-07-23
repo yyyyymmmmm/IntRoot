@@ -1,0 +1,38 @@
+name: Bug Report
+description: If something isn't working as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before submitting a bug report, please check if the issue is already present in the issues. If it is, please add a reaction to the issue. If it isn't, please fill out the form below.
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: |
+        Briefly describe the problem you are having in a few paragraphs.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: |
+        Provide the steps to reproduce the issue.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. See error
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: The version of Memos you're using
+      description: |
+        Provide the version of Memos you're using.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots or additional context
+      description: |
+        If applicable, add screenshots to help explain your problem. And add any other context about the problem here. Such as the device you're using, etc.

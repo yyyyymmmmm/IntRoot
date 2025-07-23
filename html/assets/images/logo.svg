@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="120" cy="120" r="120" fill="#F5F4F7"/>
+    
+    <!-- Pen Body -->
+    <path d="M160 80L120 120L80 160L60 180C57.8 182.2 60 190 65 185L85 165L125 125L165 85C170 80 165 75 160 80Z" fill="#2C9678"/>
+    
+    <!-- Pen Tip -->
+    <path d="M170 75L165 80L125 120L120 125L160 85L165 80L170 75C175 70 175 70 170 75Z" fill="#2C9678" fill-opacity="0.6"/>
+    
+    <!-- Ink Drop -->
+    <path d="M85 165C85 165 75 185 95 185C115 185 105 165 105 165L95 175L85 165Z" fill="#2C9678"/>
+    
+    <!-- Decorative Lines -->
+    <path d="M140 60L180 100M150 50L190 90M160 40L200 80" stroke="#2C9678" stroke-width="2" stroke-linecap="round" stroke-opacity="0.3"/>
+</svg> 

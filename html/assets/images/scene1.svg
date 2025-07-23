@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="300" height="200" rx="16" fill="#F5F4F7"/>
+    
+    <!-- Coffee Cup -->
+    <path d="M60 100C60 80 75 70 90 70H120C135 70 150 80 150 100V130H60V100Z" fill="white" stroke="#2C9678" stroke-width="2"/>
+    <path d="M150 110H170C180 110 190 100 190 90C190 80 180 70 170 70H150" stroke="#2C9678" stroke-width="2"/>
+    <path d="M60 130H150C150 130 145 140 105 140C65 140 60 130 60 130Z" fill="#2C9678" fill-opacity="0.1" stroke="#2C9678" stroke-width="2"/>
+    
+    <!-- Phone with Note -->
+    <rect x="180" y="80" width="80" height="120" rx="8" fill="white" stroke="#2C9678" stroke-width="2"/>
+    <rect x="190" y="90" width="60" height="4" rx="2" fill="#2C9678"/>
+    <rect x="190" y="100" width="40" height="4" rx="2" fill="#2C9678" fill-opacity="0.6"/>
+    <rect x="190" y="110" width="50" height="4" rx="2" fill="#2C9678" fill-opacity="0.6"/>
+    
+    <!-- Floating Elements -->
+    <circle cx="70" cy="50" r="10" fill="#2C9678" fill-opacity="0.1"/>
+    <circle cx="250" cy="40" r="15" fill="#2C9678" fill-opacity="0.1"/>
+    <circle cx="140" cy="160" r="12" fill="#2C9678" fill-opacity="0.1"/>
+</svg> 

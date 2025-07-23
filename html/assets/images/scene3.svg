@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="300" height="200" rx="16" fill="#F5F4F7"/>
+    
+    <!-- Book Stack -->
+    <rect x="60" y="100" width="100" height="20" rx="2" fill="white" stroke="#2C9678" stroke-width="2"/>
+    <rect x="65" y="80" width="90" height="20" rx="2" fill="white" stroke="#2C9678" stroke-width="2"/>
+    <rect x="70" y="60" width="80" height="20" rx="2" fill="white" stroke="#2C9678" stroke-width="2"/>
+    
+    <!-- Tablet with Notes -->
+    <rect x="180" y="40" width="80" height="120" rx="8" fill="white" stroke="#2C9678" stroke-width="2"/>
+    <rect x="190" y="50" width="60" height="4" rx="2" fill="#2C9678"/>
+    <rect x="190" y="60" width="40" height="4" rx="2" fill="#2C9678" fill-opacity="0.6"/>
+    <rect x="190" y="70" width="50" height="4" rx="2" fill="#2C9678" fill-opacity="0.6"/>
+    
+    <!-- Highlighter Marks -->
+    <rect x="190" y="90" width="30" height="4" rx="2" fill="#2C9678" fill-opacity="0.3"/>
+    <rect x="190" y="100" width="40" height="4" rx="2" fill="#2C9678" fill-opacity="0.3"/>
+    <rect x="190" y="110" width="35" height="4" rx="2" fill="#2C9678" fill-opacity="0.3"/>
+    
+    <!-- Reading Glasses -->
+    <path d="M80 140C80 130 90 130 95 130H105C110 130 120 130 120 140" stroke="#2C9678" stroke-width="2"/>
+    <circle cx="90" cy="140" r="10" fill="none" stroke="#2C9678" stroke-width="2"/>
+    <circle cx="110" cy="140" r="10" fill="none" stroke="#2C9678" stroke-width="2"/>
+</svg> 
