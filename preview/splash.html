@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InkRoot Splash Preview</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #2C9678 0%, #5DB79F 100%);
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        .logo {
+            width: 96px;
+            height: 96px;
+            background-color: white;
+            border-radius: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            animation: scaleIn 0.3s ease-out;
+        }
+
+        .logo-inner {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #2C9678 0%, #5DB79F 100%);
+            border-radius: 16px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .logo-inner::after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: white;
+            border-radius: 12px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .app-name {
+            margin-top: 24px;
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            animation: slideUp 0.3s ease-out 0.2s both;
+        }
+
+        .loading {
+            margin-top: 32px;
+            display: flex;
+            gap: 8px;
+            animation: fadeIn 0.3s ease-out 0.4s both;
+        }
+
+        .dot {
+            width: 6px;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+        }
+
+        .dot:nth-child(1) { animation: bounce 1.2s infinite 0s; }
+        .dot:nth-child(2) { animation: bounce 1.2s infinite 0.2s; }
+        .dot:nth-child(3) { animation: bounce 1.2s infinite 0.4s; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes scaleIn {
+            from { 
+                transform: scale(0.9);
+                opacity: 0;
+            }
+            to { 
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(10px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0.8); opacity: 0.8; }
+            40% { transform: scale(1.2); opacity: 1; }
+        }
+
+        /* 深色模式 */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: linear-gradient(135deg, #1A7559 0%, #2C9678 100%);
+            }
+        }
+
+        /* 移动设备预览 */
+        .phone-frame {
+            width: 375px;
+            height: 812px;
+            background: white;
+            border-radius: 40px;
+            padding: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .screen {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #2C9678 0%, #5DB79F 100%);
+            border-radius: 32px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .notch {
+            width: 120px;
+            height: 24px;
+            background: black;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            z-index: 10;
+        }
+
+        /* 切换按钮 */
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 20px;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            backdrop-filter: blur(10px);
+            transition: 0.3s;
+        }
+
+        .theme-toggle:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">切换深色模式</button>
+    <div class="phone-frame">
+        <div class="notch"></div>
+        <div class="screen">
+            <div class="container">
+                <div class="logo">
+                    <div class="logo-inner"></div>
+                </div>
+                <div class="app-name">InkRoot</div>
+                <div class="loading">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let isDark = false;
+        function toggleTheme() {
+            isDark = !isDark;
+            if (isDark) {
+                document.querySelector('.screen').style.background = 
+                    'linear-gradient(135deg, #1A7559 0%, #2C9678 100%)';
+            } else {
+                document.querySelector('.screen').style.background = 
+                    'linear-gradient(135deg, #2C9678 0%, #5DB79F 100%)';
+            }
+        }
+    </script>
+</body>
+</html> 

@@ -1,0 +1,13 @@
+// Application-level settings for the Runner target.
+//
+// This may be replaced with something auto-generated from metadata (e.g., pubspec.yaml) in the
+// future. If not, the values below would default to using the project name when this becomes a
+// 'flutter create' template.
+
+PRODUCT_NAME = InkRoot-墨鸣笔记
+PRODUCT_VERSION = 1.0.0
+PRODUCT_BUILD_NUMBER = 1
+PRODUCT_BUNDLE_IDENTIFIER = com.inkroot.notes
+
+// The application's name. By default this is also the title of the Flutter window.
+PRODUCT_COPYRIGHT = Copyright © 2024 InkRoot Team. All rights reserved.
